@@ -1,0 +1,129 @@
+body {
+  padding-top: 50px;
+}
+#login_box div.panel {
+  width: 400px;
+}
+#login_box div.panel div.panel-body {
+  color: #000;
+}
+span.form-control-feedback {
+  color: #000;
+}
+.img_title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  padding: 20px;
+}
+.img_title > button {
+  background-color: #5bc0de;
+  border: none;
+  color: #fff;
+}
+div.col-md-12.col-sm-6.col-xs-12 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+div.col-md-12.col-sm-6.col-xs-12 > img {
+  width: 360px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .half_mask {
+  position: absolute;
+  top: 80%;
+  left: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 93%;
+  color: #fff;
+  padding: 10px;
+}
+div.col-md-12.col-sm-6.col-xs-12 .half_mask a {
+  color: #8EBFCD;
+  font-weight: bold;
+}
+div.col-md-12.col-sm-6.col-xs-12 .half_mask:hover {
+  top: 0px;
+  transition: top 1s linear;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media {
+  padding: 20px 10px;
+  background-color: #0171C5;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media > .media-left {
+  border-right: 2px solid #008FD9 ;
+  vertical-align: middle;
+}
+div.col-md-12.col-sm-6.col-xs-12 .media > .media-body {
+  padding-left: 10px;
+}
+ul.list-unstyled li {
+  margin-top: 10px;
+}
+ul.list-unstyled li > a {
+  color: #fff;
+}
+.two {
+  background-color: #0171C5;
+  padding: 10px;
+}
+section.container > .row {
+  margin-bottom: 20px;
+}
+body {
+  font-family: 'microsoft yahei', 'Simsun';
+  color: #fff;
+  background-color: #0062a8;
+}
+.navbar {
+  background-color: #0071c5;
+  border-bottom: 4px solid #0062a8;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar .navbar-header a.navbar-brand {
+  background-image: url('../img/hdr-spr.png');
+  background-position: 0 -508px;
+  width: 70px;
+  height: 50px;
+}
+.navbar #nav_intel a,
+.navbar #nav_intel .dropdown-menu {
+  background-color: #0081d6;
+}
+.navbar #nav_intel a:hover {
+  background-color: #5bc0de;
+}
+body footer.container {
+  background-color: #fff;
+  width: 100%;
+}
+body footer.container .logo {
+  padding: 5px 50px;
+}
+body footer.container .logo h4 {
+  color: #575E64;
+}
+body footer.container ul li > a {
+  color: #0062a8;
+}
+body footer.container ul li > h4 {
+  color: #575E64;
+}
+body footer.container div.col-md-3 {
+  padding: 15px 55px;
+}
+body footer.container div.col-md-3 span {
+  background-image: url('../img/social_sprite_smushed.png');
+  background-position: 0 -770px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+body footer.container div.col-md-3 span.shequ {
+  background-position: 0 -70px;
+}

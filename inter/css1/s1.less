@@ -1,0 +1,59 @@
+@jd_red:#e4393c;
+@thick_border:6px;
+@basic_font_size:1.2em;
+@font:microcsoft yahei;
+@basic_width:50%;
+
+
+p{
+  color: @jd_red;
+  border: @thick_border solid #00ff00;
+  font-size: @basic_font_size;
+  width: @basic_width;
+}
+.bordered{
+  border: @thick_border solid #00ff00;
+  color: @jd_red;
+}
+.s1{
+  .bordered
+}
+.tran(@t){
+  transition: opacity 2s linear;
+  -webkit-transition:opacity 2s linear;
+  -o-transition:opacity 2s linear; ;
+}
+.w{
+  .tran(2s);
+}
+.w1{
+  .tran(3s);
+}
+//嵌套
+.nav{
+  height: 50px;
+  ul{
+    list-style-type: none;
+    >li{float: left;}
+  }
+  a{
+    border: 1px solid #e4393c;
+    &:hover{color:red;}
+  }
+}
+//运算和内置函数
+@screen_width:992px;
+.coll{
+  width: @screen_width/12;
+}
+.col2{
+  width: floor(@screen_width/12);
+}
+@c1:darken(@jd_red,30%);
+@c2:darken(@jd_red,10%);
+@c3:lighten(@jd_red,20%);
+@c4:lighten(@jd_red,10%);
+.s1{
+  color: @c2;
+  border: 1px solid @c4;
+}

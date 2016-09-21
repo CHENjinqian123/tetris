@@ -1,0 +1,49 @@
+p {
+  color: #e4393c;
+  border: 6px solid #00ff00;
+  font-size: 1.2em;
+  width: 50%;
+}
+.bordered {
+  border: 6px solid #00ff00;
+  color: #e4393c;
+}
+.s1 {
+  border: 6px solid #00ff00;
+  color: #e4393c;
+}
+.w {
+  transition: opacity 2s linear;
+  -webkit-transition: opacity 2s linear;
+  -o-transition: opacity 2s linear;
+}
+.w1 {
+  transition: opacity 2s linear;
+  -webkit-transition: opacity 2s linear;
+  -o-transition: opacity 2s linear;
+}
+.nav {
+  height: 50px;
+}
+.nav ul {
+  list-style-type: none;
+}
+.nav ul > li {
+  float: left;
+}
+.nav a {
+  border: 1px solid #e4393c;
+}
+.nav a:hover {
+  color: red;
+}
+.coll {
+  width: 82.66666667px;
+}
+.col2 {
+  width: 82px;
+}
+.s1 {
+  color: #ce1c1f;
+  border: 1px solid #ea6668;
+}
